@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- acrescentar uma fonte-->
+      <!-- acrescentar uma fonte-->
+    <link rel="stylesheet" href="main.css"><!--link para o arquivo css externo-->
+</head>
+<body>
+    <div class="centralizar-Cadastro"><!--container formulario-->
+        <div class="titulo"> <!--titulo-->
+            <h1>Lista de tarefas</h1>  
+        </div>
+        <div class="furmulario-tarefa"><!--div formulario-->
+            <form id="form-atividade"> 
+                <input type="text" id="lista-tarefa" placeholder=" Adicione uma tarefa" required>
+                <button type="submit" id="butao-adicionar">Cadastrar</button>
+            </form>
+            <ul id="agenda-tarefa">
+                <!-- As tarefas serão listadas aqui -->
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
